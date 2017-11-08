@@ -11,9 +11,14 @@ public class Main {
 
     // TODO complete this main program
     // 1. create a WordCounter instance
+    Map<String, Integer> map = new HashMap<>();
+    WordCounter counter = new WordCounter(map);
     // 2. use this to count the words in the input
+
     // 3. determine the size of the resulting map
+
     // 4. create an ArrayList of that size and
+
     // 5. store the map's entries in it (these are of type Map.Entry<String, Integer>
     // 6. sort the ArrayList in descending order by count
     //    using Collections.sort and an instance of the provided comparator (after fixing the latter)
